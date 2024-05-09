@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sesion 4</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.css'>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="img/icons8-iglesia-32.png"/>
+</head>
+<body>
+    <!--MAIN CONTAINER-->
+    <div class="container-fluid bg-dark">
+        <!--NAVBAR-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand"><img class="navbar-logo img-fluid" src="img/logo-3.png" alt="logo" width="100" height="94"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#que-es">Qué es</a>
+                  <a class="nav-link" href="#galeria">Galería</a>
+                  <a class="nav-link" href="#cuando">Cuándo</a>
+                  <a class="nav-link" href="#inscripcion">Inscripción</a>
+                </div>
+              </div>
+            </div>
+        </nav>
+        
+        <!--QUE ES-->
+        <section id="que-es" class="text-center bg-light pt-5">
+            <h2 class="pt-5 text-uppercase">Dios Siembra en Tierra Fértil</h2>
+            <p class="p-5">En tiempos de crisis, desilusiones y duelos, el Señor esparce su palabra para sembrar grandes líderes. Te presentamos el “Siembra de líderes católicos”, un programa que a lo largo de los años ha logrado que muchos jóvenes encuentren la voluntad de Dios en sus vidas para ser agentes de cambio en sus entornos.</p>
+
+            <div id="carouselExample" class="carousel slide pb-5">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/c3.webp" class="d-block w-100 c-img" alt="foto grupal de retiro siembra">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/c2.jpg" class="d-block w-100 c-img" alt="jovenes participantes del retiro">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/c1.webp" class="d-block w-100 c-img" alt="charla llevada a cabo en el retiro siembra">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/c4.png" class="d-block w-100 c-img" alt="jovenes participantes del retiro siembra">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/c5.webp" class="d-block w-100 c-img" alt="foto grupal de jovenes participantes del retiro siembra con consagrados">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              
+        <!--GALERIA-->
+        <section id="galeria" class="pt-5 bg-light">
+
+            <h2 class="text-uppercase pt-5">Conoce nuestras actividades</h2>
+                <div class="row p-5">
+                    <div class="col-12 col-md-4">
+                        <img src="img/gal-1.jpg" class="img-fluid gal-img wow animate__bounceIn" alt="">    
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="img/gal-2.jpg" class="img-fluid gal-img wow animate__bounceIn" alt="">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="img/gal-3.jpg" class="img-fluid gal-img wow animate__bounceIn" alt="">
+                    </div>
+                </div>
+                <div class="row p-5">
+                    <div class="col-12 col-md-4">
+                        <img src="img/gal-4.jpg" class="img-fluid gal-img wow animate__bounceIn" alt="">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="img/gal-5.png" class="img-fluid gal-img wow animate__bounceIn" alt="">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="img/gal-6.jpg" class="img-fluid gal-img wow animate__bounceIn" alt="">
+                    </div>
+                </div>
+
+        </section>
+
+              <!--BUTTON-->
+              <button onclick="location.href='#inscripcion'" type="button" class="btn btn-lg btn-danger mb-5">Quiero Inscribirme!</button>
+
+            <div class="bg-dark text-light">
+                <h2 class="pt-5 text-uppercase">Cómo Funciona</h2>
+
+                <div class="row p-5">
+                    <div class="col-12 col-md-4 p-3">
+                        <i class="fa-solid fa-hands-praying pb-4" style="color: #dfe2e7;"></i>
+                        <h4 class="fs-6">1 RETIRO ESPIRITUAL</h4>
+                    </div>
+                    <div class="col-12 col-md-4 p-3">
+                        <i class="fa-solid fa-list pb-4" style="color: #dfe2e7;"></i>
+                        <h4 class="fs-6">7 SESIONES SEMANALES</h4>
+                    </div>
+                    <div class="col-12 col-md-4 p-3">
+                        <i class="fa-solid fa-handshake pb-4" style="color: #dfe2e7;"></i>
+                        <h4 class="fs-6">1 VOLUNTARIADO SOCIAL </h4>
+                    </div>
+                </div>
+                
+
+                <div class="divider bg-light mt-3 mb-3"></div>
+                <h2>COSTO:</h2>
+                <br>
+                <h2>s/. 250</h2>
+                <div class="divider bg-light mt-3 mb-3"></div>
+                
+                <p class="p-5">El programa consiste en un retiro espiritual, 5 sesiones semanales y unos días de misiones (labor social). A través de él, descubrirás quién eres y la misión que Dios tiene preparada para ti. ¿Quieres ponerte al servicio de la sociedad y del mundo? Es hora de escuchar la voz del Señor más fuerte que nunca.</p>
+
+
+            </div>
+
+        </section>
+
+
+        <!--CUANDO-->
+        
+        <section id="cuando" class="text-center bg-light pt-5">
+            <h2 class="p-5">CUÁNDO</h2>
+
+            <!--ACOORDION-->
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Retiro Siembra
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      El retiro se llevará a cabo durante el lapso de un fin de semana en las siguientes fechas:
+                    <ul class="list-unstyled">
+                        <li>Viernes 20 de Octubre</li>
+                        <li>Sábado 21 de Octubre</li>
+                        <li>Domingo 22 de Octubre</li>
+                    </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Sesiones Post Retiro
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Posterior al retiro se llevarán a cabo 8 reuniones semanales cada fin de semana posterior al retiro a lo largo de los meses de <strong>Noviembre</strong> y <strong>Diciembre</strong>.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Voluntariado Social
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Para finalizar esta aventura realizaremos un voluntariado social el cual se llevará a cabo en el mes de <strong>Diciembre</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <h2 class="p-5">QUÉ OBTENGO</h2>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <i class="fa-solid fa-gift"></i>
+                    <p class="p-5">Un kit con material complementario que enriquecerá la experiencia</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <i class="fa-solid fa-toolbox"></i>
+                    <p class="p-5">Herramientas que ayudarán en tu crecimiento personal, a nivel humano y espiritual</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <i class="fa-solid fa-people-group"></i>
+                    <p class="p-5">¡Formarás parte de una comunidad que te acompañará en formación y crecimiento permanente!</p>
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <!--INSCRIPCION-->
+        <section id="inscripcion" class="bg-dark text-light p-3">
+
+            <h2 class="text-center p-5 text-uppercase">Inscribete aquí</h2>
+            <p class="text-center pb-3">Recuerda que esta es una preinscripción. ¡Nos comunicaremos contigo para completar el proceso! Asegúrate de escribir bien tu número de teléfono.</p>
+
+            <!--FORM-->
+            <!--
+            <form class="pb-5">
+                <div class="mb-3">
+                    <label for="exampleInputName" class="form-label">Nombre y Apellido</label>
+                    <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputAge" class="form-label">Edad</label>
+                    <input type="number" class="form-control" id="exampleInputAge" aria-describedby="numberHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputCellphone" class="form-label">Celular</label>
+                    <input type="phone" class="form-control" id="exampleInputEmail1" aria-describedby="phoneHelp">
+                </div>
+                <button type="submit" class="btn btn-danger">Submit</button>
+              </form>
+            -->
+
+            <!--TYPEFORM-->
+            <form class="pb-5">
+              <div data-tf-live="01HXFD4XPK8XAE3XS2559V30AP"></div><script src="//embed.typeform.com/next/embed.js"></script>
+            </form>
+
+
+        </section>
+
+    </div>
+    <div class="container-fluid bg-dark bg-gradient">
+    <!--FOOTER-->
+    <footer class="bg-dark bg-gradient text-white pt-5 pb-5 text-center">
+      <div class="row footer-info">
+          <div class="col-6">
+              <p class="text-uppercase">Informacion de contacto</p>
+              <ul class="list-unstyled p-2">
+                  <li>944 221 068</li>
+                  <li>Santorín 258 Urbanización El Derby <br> Surco, Lima, Peru</li>
+                  <li>avanzadacatolica@gmail.com</li>
+              </ul>
+          </div>
+          <div class="col-6 footer-info">
+              <p class="text-uppercase">Siguenos en nuestras redes sociales</p>
+              <a href="https://www.facebook.com/Avanzada.Catolica.Lima"><i class="fa-brands fa-facebook p-3"></i></a>
+              <a href="https://www.instagram.com/avanzadacatolica/?hl=es"><i class="fa-brands fa-instagram p-3"></i></a>
+              <a href="https://www.youtube.com/@AvanzadaCatolica"><i class="fa-brands fa-youtube p-3"></i></a>
+          </div>
+      </div>
+      
+  </footer>
+    </div>
+
+
+
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src='js/bootstrap.js'></script>
+</body>
+</html>
